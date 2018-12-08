@@ -12,6 +12,9 @@
 		0F2F0EEE21BB971A004168DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F0EEC21BB971A004168DB /* Main.storyboard */; };
 		0F2F0EF021BB971C004168DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F0EEF21BB971C004168DB /* Assets.xcassets */; };
 		0F2F0EF321BB971C004168DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F0EF121BB971C004168DB /* LaunchScreen.storyboard */; };
+		0F2F0EFB21BB9AA3004168DB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F0EFA21BB9AA3004168DB /* ResultViewController.swift */; };
+		0F2F0EFD21BBA695004168DB /* ViewControllerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F0EFC21BBA695004168DB /* ViewControllerTransition.swift */; };
+		0F2F0EFF21BBACA9004168DB /* hexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F0EFE21BBACA9004168DB /* hexColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0F2F0EEF21BB971C004168DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F2F0EF221BB971C004168DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F2F0EF421BB971C004168DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2F0EFA21BB9AA3004168DB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0F2F0EFC21BBA695004168DB /* ViewControllerTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTransition.swift; sourceTree = "<group>"; };
+		0F2F0EFE21BBACA9004168DB /* hexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		0F2F0EE721BB971A004168DB /* SecondKadaiApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F2F0EFE21BBACA9004168DB /* hexColor.swift */,
+				0F2F0EFC21BBA695004168DB /* ViewControllerTransition.swift */,
 				0F2F0EE821BB971A004168DB /* AppDelegate.swift */,
 				0F2F0EEA21BB971A004168DB /* ViewController.swift */,
+				0F2F0EFA21BB9AA3004168DB /* ResultViewController.swift */,
 				0F2F0EEC21BB971A004168DB /* Main.storyboard */,
 				0F2F0EEF21BB971C004168DB /* Assets.xcassets */,
 				0F2F0EF121BB971C004168DB /* LaunchScreen.storyboard */,
@@ -137,6 +146,9 @@
 			files = (
 				0F2F0EEB21BB971A004168DB /* ViewController.swift in Sources */,
 				0F2F0EE921BB971A004168DB /* AppDelegate.swift in Sources */,
+				0F2F0EFF21BBACA9004168DB /* hexColor.swift in Sources */,
+				0F2F0EFB21BB9AA3004168DB /* ResultViewController.swift in Sources */,
+				0F2F0EFD21BBA695004168DB /* ViewControllerTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
